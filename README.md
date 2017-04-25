@@ -1,6 +1,6 @@
 # npmtest-mongo-relation
 
-#### test coverage for  [mongo-relation (v0.5.4)](https://github.com/JamesS237/mongo-relation/)  [![npm package](https://img.shields.io/npm/v/npmtest-mongo-relation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongo-relation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongo-relation.svg)](https://travis-ci.org/npmtest/node-npmtest-mongo-relation)
+#### basic test coverage for  [mongo-relation (v0.5.4)](https://github.com/JamesS237/mongo-relation/)  [![npm package](https://img.shields.io/npm/v/npmtest-mongo-relation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongo-relation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongo-relation.svg)](https://travis-ci.org/npmtest/node-npmtest-mongo-relation)
 
 #### Model relationships plugin for Mongoose
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mongo-relation/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mongo-relation/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mongo-relation/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mongo-relation/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongo-relation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongo-relation/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mongo-relation/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mongo-relation/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongo-relation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongo-relation/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mongo-relation/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mongo-relation/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
         "nyan": "mocha -R nyan specs/*.spec.js",
         "test": "mocha -R spec specs/*.spec.js"
     },
-    "version": "0.5.4"
+    "version": "0.5.4",
+    "bin": {}
 }
 ```
 
